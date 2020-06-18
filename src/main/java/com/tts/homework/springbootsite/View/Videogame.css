@@ -1,0 +1,9 @@
+*{
+    color: blue;
+}
+
+body{
+    background-image: url(/Users/davidjuarez/Desktop/pixel_shyguy.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
