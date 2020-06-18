@@ -20,7 +20,7 @@ public class VGIController {
         return "videogame.html";
     }
 
-    @PostMapping(value = "/save-videogame")
+    @RequestMapping(value = "/save-videogame")
     public String saveVideoInfo(@ModelAttribute VGIModel model){
         return "info.html";
     }
