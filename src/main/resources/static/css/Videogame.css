@@ -3,7 +3,11 @@
 }
 
 body{
-    background-image: url(/Users/davidjuarez/Desktop/pixel_shyguy.png);
+    background-image: url("../images/pixel_shyguy.png");
     background-repeat: no-repeat;
     background-position: cover;
+}
+
+btn{
+    border-radius: 100%;
 }
