@@ -10,17 +10,19 @@ public class VGIModel {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-    private String title;
-    private String character;
-    private String genre;
+    private  String title;
+    private  String character;
+    private  String genre;
 
-    public VGIModel(String title, String character, String genre){
+    public VGIModel(String title, String character, String genre) {
         this.title = title;
         this.character = character;
         this.genre = genre;
     }
 
-    public String getTitle() {
+    public VGIModel(){};
+
+    public  String getTitle() {
         return title;
     }
 
