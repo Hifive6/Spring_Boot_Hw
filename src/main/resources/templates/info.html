@@ -11,8 +11,15 @@
     <h2>This is the where the info should show</h2>
 
     <h2>Info</h2>
-    <div th:text="'title: ' + ${videogame.title}"/>
-    <div th:text="'character:  '+ ${videogame.character}"/>
-    <div th:text="'genre:  '+ ${videogame.genre}"/>
+    <div th:text="${title}"/>
+    <div th:text="${character}"/>
+    <div th:text="${genre}"/>
+
+    <tr th:each="game : ${videogame}">
+        <td th:text="${game.genre}">1</td>
+        
+        <td><a href="#" th:text="${game.title}">Title ...</a></td>
+        <td th:text="${game.character}">Text ...</td>
+    </tr>
 </body>
 </html>
