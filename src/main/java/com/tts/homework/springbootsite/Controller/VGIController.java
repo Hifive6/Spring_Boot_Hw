@@ -23,7 +23,7 @@ public class VGIController {
     }
 
     @PostMapping("/videogame")
-    public String saveVideoInfo(@ModelAttribute VGIModel model){
+    public String videogame(@ModelAttribute VGIModel model){
         return "info";
     }
 }
